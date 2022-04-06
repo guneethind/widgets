@@ -1,0 +1,10 @@
+.heading {
+  /* margin: 250px; */
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.heading span {
+  padding: 0px 50px 0px 50px;
+}
