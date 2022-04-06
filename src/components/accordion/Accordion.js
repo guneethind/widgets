@@ -1,13 +1,12 @@
 import React, { useState } from "react";
 
 //import "./accordion.css";
-let flag = 0;
 const Accordion = (props) => {
   const [selectedItem, setSelectedItem] = useState(null);
 
   const onItemClick = (index) => {
     // setTimeout(() => {
-    if (index == selectedItem) {
+    if (index === selectedItem) {
       setSelectedItem(null);
       return;
     }
@@ -20,7 +19,7 @@ const Accordion = (props) => {
   const renderedItems = props.items.map((item, index) => {
     // console.log(item);
 
-    const active = index == selectedItem ? "active" : "";
+    const active = index === selectedItem ? "active" : "";
     return (
       <React.Fragment key={item.title}>
         <div

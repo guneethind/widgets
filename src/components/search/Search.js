@@ -37,7 +37,7 @@ const Search = () => {
     search();
 
     // inputText ? search() : (() => {})();
-  }, [inputText]);
+  }, [inputText, result.length]);
 
   const renderedResult = result.map((item) => {
     return (
