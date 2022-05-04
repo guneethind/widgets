@@ -27,7 +27,7 @@ const Search = () => {
       let timer = setTimeout(() => {
         // console.log("hello");
         if (inputText>=3) { 
-         consolr.log("search")
+         console.log("search")
           search();
         }
       }, 1000);
