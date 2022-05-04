@@ -27,7 +27,7 @@ const Search = () => {
       let timer = setTimeout(() => {
         // console.log("hello");
         inputText && search();
-      }, 800);
+      }, 1000);
       return () => {
         clearTimeout(timer);
       };
